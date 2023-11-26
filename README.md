@@ -1,10 +1,10 @@
-## Supermarket Counter Management System
+# Supermarket Counter Management System
 
-# Overview
+## Overview
 
 This Python program simulates a counter management system for a supermarket. It uses a multi-threaded approach to manage customer entries, exits, and counter load balancing. The system provides a graphical user interface (GUI) for the manager to monitor and control the counters.
 
-# Features
+## Features
 
 - **Customer Entry and Exit:**
   - New customers can enter the supermarket and be assigned to a counter.
@@ -18,12 +18,12 @@ This Python program simulates a counter management system for a supermarket. It 
   - Managers can change the status of counters and adjust the threshold for load balancing.
 
 
-# Prerequisites
+## Pre-requisites
 
 - Python 3.x
 - Required Python packages: `tkinter` (included in standard Python distribution)
 
-# Running the Program
+## Running the Program
 
 1. Clone the repository:
 
@@ -38,15 +38,15 @@ This Python program simulates a counter management system for a supermarket. It 
 
 3. Follow the on-screen instructions to interact with the program.
 
-# Configuration
+## Configuration
 
 - The program prompts the user for configuration settings such as the maximum length for each counter, the maximum number of counters, and the initial number of counters.
 
-# Structure
+## Structure
 
 - **customer_map function :** This function runs on the main thread and looks after the mapping of customers to the counters
 - **poller function** : This function periodically polls each counter, seeks the exit frequency and calculates the rate at which customers are leaving that counter (to facilitate the load balancing)
-- **`gui_thread** Implements the graphical user interface using tkinter.
+- **gui_thread** :Implements the graphical user interface using tkinter.
 
 # Authors
 1. **Pavan R Kashyap** : In-charge of load balancing function codebase and threads (custom_map)
