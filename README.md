@@ -17,7 +17,6 @@ This Python program simulates a counter management system for a supermarket. It 
   - The GUI provides a visual representation of counter details, including weightage and queue length.
   - Managers can change the status of counters and adjust the threshold for load balancing.
 
-# Getting Started
 
 # Prerequisites
 
@@ -49,12 +48,7 @@ This Python program simulates a counter management system for a supermarket. It 
 - **poller function** : This function periodically polls each counter, seeks the exit frequency and calculates the rate at which customers are leaving that counter (to facilitate the load balancing)
 - **`gui_thread** Implements the graphical user interface using tkinter.
 
-# License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-# AUTHORS
+# Authors
 1. **Pavan R Kashyap** : In-charge of load balancing function codebase and threads (custom_map)
 2. **Phaneesh R Katti**: In-charge of load balancing function codebase and threads (main)
 3. **Niveditha K**: In-charge of poller and threads
